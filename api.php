@@ -71,6 +71,6 @@ $quocdz['truoc_gia_dich'] = loc(trim($truocgd));
 $quocdz['sau_gia_dich'] = loc(trim($saugd));
 $quocdz['sotien'] = loc(trim($sotien));
 //$quocdz['loai'] = trim($io);
-$quocdz['thoi_gian'] = (trim($time);
+$quocdz['thoi_gian'] = trim($time);
 $quocdz['noidung'] = loc(trim($noidung));
 echo json_encode($quocdz,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
